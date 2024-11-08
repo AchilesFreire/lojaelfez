@@ -1,0 +1,43 @@
+<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+
+
+
+
+--%>
+
+<asp:Button runat="server" Font-Name="Tahoma" Font-Bold="True" Font-Size="12px" ForeColor="#193372" BackColor="LightSteelBlue" BorderColor="CornflowerBlue"
+                BorderStyle="Solid"  BorderWidth="1px" Text="Button"  Height="21px" Width="120px" />
+
+<asp:Label runat="server" ForeColor="#193372" Font-Name="Tahoma"  Font-Size="12px" />
+
+<asp:TextBox runat="server"  Font-Name="Tahoma"  BorderColor="#193372" BorderStyle="Solid" BorderWidth="1px" ForeColor="#193372" />
+
+<asp:DropDownList runat="server"  Font-Name="Tahoma"  ForeColor="#193372" />
+
+<%-- Paineis--%>
+<asp:Panel SkinID="PainelControles" runat="server" Width="100%" BackColor="White" BorderStyle="Solid" BorderWidth="1px" ScrollBars="Auto" BorderColor="CornflowerBlue"/>
+<asp:Panel SkinID="PainelBarraFerramentas" runat="server" Height="1px" Width="100%" BackColor="#193372" BorderStyle="Solid" BorderWidth="1px" BorderColor="CornflowerBlue"/>
+<asp:Panel SkinID="PainelMensagem" runat="server" Width="100%" BackColor="LightSteelBlue" BorderStyle="Solid" BorderWidth="1px" BorderColor="CornflowerBlue"/>
+
+<asp:GridView runat="server" Width="100%" BackColor="White" BorderColor="#E7E7FF" BorderStyle="None" BorderWidth="1px" Height="144px" AutoGenerateColumns="False" AutoGenerateSelectButton="True" AllowSorting="True">
+    <FooterStyle BackColor="#B5C7DE" ForeColor="#4A3C8C" />
+    <RowStyle BackColor="LightSteelBlue" ForeColor="RoyalBlue" Font-Names="Arial" Font-Size="Smaller" />
+    <SelectedRowStyle BackColor="SlateGray" Font-Bold="False" ForeColor="#F7F7F7" Font-Names="Arial" Font-Size="Smaller" />
+    <PagerStyle BackColor="#E7E7FF" ForeColor="#4A3C8C" HorizontalAlign="Right" />
+    <HeaderStyle BackColor="SteelBlue" Font-Bold="True" Font-Names="Arial" Font-Size="Smaller"
+                    ForeColor="#F7F7F7" />
+    <AlternatingRowStyle BackColor="WhiteSmoke" />
+</asp:GridView>

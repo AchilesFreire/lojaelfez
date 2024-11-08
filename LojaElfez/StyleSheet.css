@@ -1,0 +1,23 @@
+﻿body
+{
+	margin: 0;
+	padding-bottom: 2em;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: Verdana , Arial, Helvetica, sans-serif;
+	border-top: 2px solid #22426e;
+}
+
+TextoCentralizado
+{
+	font-family: Verdana , Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center
+}
+
+Titulo
+{
+	font-family: Calibri,Tahoma,Verdana , Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center
+}
